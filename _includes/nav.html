@@ -1,6 +1,6 @@
 <nav>
 	<ul>
-		<li><a href="{{site.baseurl}}/index.html">Home</a></li>
-		<li><a href="{{site.baseurl}}/navigation.html">Navigation</a></li>
+		<li><a href="{{site.baseurl}}/" class="{% if page.url == '/index.html' %}current{% endif %}">Home</a></li>
+		<li><a href="{{site.baseurl}}/navigation.html" class="{% if page.url == '/navigation.html' %}current{% endif %}">Navigation</a></li>
 	</ul>
 </nav>
